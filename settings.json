@@ -1,0 +1,120 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontLigatures": true,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "errorLens.exclude": [
+    "\"axios\": Unknown word\\."
+  ],
+  "cSpell.userWords": [
+    "axios"
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.formatting.provider": "black",
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "glassit.alpha": 250,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "explorer.confirmDelete": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredLightColorTheme": "Visual Studio Dark",
+  "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "settingsSync.ignoredExtensions": [
+    "seyyedkhandon.firacode"
+  ],
+  "gitlens.views.commitDetails.files.layout": "list",
+  "editor.stickyScroll.enabled": false,
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "php.executablePath": "/usr/bin/php",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.minimap.enabled": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  
+  "workbench.iconTheme": "catppuccin-mocha",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontWeight": "bold",
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontWeightBold": "bold",
+  "editor.fontFamily": "'Dank Mono', 'monospace'",
+  "editor.fontSize": 14,
+
+  "apc.font.family": "Dank Mono",
+  "apc.monospace.font.family": "Dank Mono",
+  
+  "workbench.editor.tabSizing": "shrink",
+  "window.titleBarStyle": "custom",
+  "window.title": "${activeEditorShort}${separator}${rootName}",
+  
+  //link custom css 
+  "vscode_custom_css.imports": [
+    "file:///home/tharindu-wijayarathna/.config/Code/User/custom.css"
+  ],
+  "window.customTitleBarVisibility": "auto",
+  "workbench.activityBar.location": "top",
+}
